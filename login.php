@@ -16,6 +16,8 @@ if(isset($_POST['submit'])) {
 
         if($count > 0)
         {
+            session_start();
+            $_SESSION['id'] = "$uname";
             header('Location: home.php');
         }
         else

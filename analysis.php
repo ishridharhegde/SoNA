@@ -77,27 +77,6 @@
             </div>
         </div>
     </div> <!-- CARD END -->
-
-<div class="row">
-<?php
-  $csv = array_map('str_getcsv', file('Dummy.csv'));
-  for($i=1; $i<10; $i++)
-  {?>
-    <div class="col-lg 3 col-md-3 col-sm-12 col-xs-12">
-    <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="<?php print_r($csv[$i][0]) ?>" alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title" style="font-weight: bold;"><?php print_r($csv[$i][1]) ?></h5>
-      <p class="card-text"><?php print_r($csv[$i][2]) ?></p>
-      <a href="analysis.php" style="margin-top: 10px;" class="btn btn-primary">See analysis</a>
-    </div>
-    </div>
-    </div>
-<?php  }
-?>
-
-
-
   </main><!-- End #main -->
 
 </body>
