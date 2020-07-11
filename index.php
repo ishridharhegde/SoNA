@@ -85,7 +85,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/team-11.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Shridhar Hegde</h4>
                 <span>Team Lead - Full Stack Development</span>

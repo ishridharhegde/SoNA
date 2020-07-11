@@ -38,7 +38,7 @@ if (!$con) {
 <!-- Template Main CSS File -->
 <link href="assets/css/style.css" rel="stylesheet">
 <link href="assets/css/main.css" rel="stylesheet" media="all">
-
+<link href="assets/css/custom.css" rel="stylesheet">
 
 <!-- Button to go to top -->
 <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>

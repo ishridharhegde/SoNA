@@ -1,0 +1,17 @@
+.card-text-limit{
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+.card-image {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
